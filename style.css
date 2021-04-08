@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(219, 237, 253);
+}
+
+table{
+    margin: 20px auto;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    background: black;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+h1.heading {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1#player {
+    text-align: center;
+}
+
+button.foot {
+    margin-left: 468px;
+    margin-top: 10px;
+    width: 311px;
+    height: 82px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-color: grey;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+td:hover {
+    background-color: rgb(95, 93, 97);
+}
+td{
+    transition: all 0.5s ease;
+}
+
+button#foo:hover {
+    background-color:  rgb(240, 243, 252);
+    border-color: blue;
+    color: blue;
+    border-radius: 10px;
+}
