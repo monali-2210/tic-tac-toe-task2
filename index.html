@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+
 </head>
+
 <body>
-    <h1 class="heading">TIC TAC TOE</h1>
-    <h1 class="subheading" id="player">Have fun</h1>
-    <table>
-        <tr>
-            <td id="row1" onclick="print('1')"></td>
-            <td id="row2" onclick="print('2')"></td>
-            <td id="row3" onclick="print('3')"></td>
-        </tr>
+          
+        <h1 class="name1" id="name1" onclick="usernameinput()">User1</h1>
+        <h1 class="sboard1" id="scoreboard1">Score: 0</h1>
 
-        <tr>
-            <td id="row4" onclick="print('4')"></td>
-            <td id="row5" onclick="print('5')"></td>
-            <td id="row6" onclick="print('6')"></td>
-        </tr>
-
-        <tr>
-            <td id="row7" onclick="print('7')"></td>
-            <td id="row8" onclick="print('8')"></td>
-            <td id="row9" onclick="print('9')"></td>
-        </tr>
+        <h1 class="name2" id="name2" onclick="usernameinput()">User2</h1>
+        <h1 class="sboard2" id="scoreboard2">Score: 0</h1>
 
 
-    </table>
-       <script src="script.js"></script>
-       <button class="foot" id="foo" onclick="refresh()"><h1>Reset</h1></button>
+        <h1 class="heading">TIC TAC TOE</h1>
+        <h1 class="subheading" id="player">Have fun</h1>
+        <table>
+            <tr>
+                <td id="row1" onclick="print('1')"></td>
+                <td id="row2" onclick="print('2')"></td>
+                <td id="row3" onclick="print('3')"></td>
+            </tr>
+
+            <tr>
+                <td id="row4" onclick="print('4')"></td>
+                <td id="row5" onclick="print('5')"></td>
+                <td id="row6" onclick="print('6')"></td>
+            </tr>
+
+            <tr>
+                <td id="row7" onclick="print('7')"></td>
+                <td id="row8" onclick="print('8')"></td>
+                <td id="row9" onclick="print('9')"></td>
+            </tr>
+
+
+
+        </table>
+        <script src="script.js"></script>
+        <button class="foot" id="foo" onclick="refresh()">
+            <h1>Reset</h1>
+        </button>
     </div>
 </body>
+
 </html>

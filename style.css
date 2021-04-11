@@ -18,7 +18,7 @@ td{
 
 h1.heading {
     text-align: center;
-    margin-top: 25px;
+    margin-top: -106px;
 }
 
 h1#player {
@@ -49,4 +49,55 @@ button#foo:hover {
     border-color: blue;
     color: blue;
     border-radius: 10px;
+}
+
+.mb-3 {
+    background-color: black;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding: 30px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.mb-4 {
+    margin-top: 33px;
+    height: 30px;
+}
+
+button.btn.btn-primary {
+    background-color: lightgreen;
+    margin-top: 23px;
+    height: 29px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.mb-6 {
+    background-color: black;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    padding: 30px 10px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h1#name1 {
+    margin-left: 84px;
+}
+h1#name2 {
+    float: right;
+    margin-top: -110px;
+    margin-right: 84px;
+}
+h1#scoreboard1 {
+    margin-left: 109px;
+    margin-top: -13px;
+}
+h1#scoreboard2 {
+    float: right;
+    margin-right: 108px;
+    margin-top: -64px;
 }
